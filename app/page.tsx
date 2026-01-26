@@ -15,8 +15,8 @@ const griddleDeck = [
     emoji: '🎒☕',
     suit: 'major',
     number: 0,
-    meaning: 'New beginnings await — just walk through the door.',
-    fullMeaning: 'A cheerful newcomer walks into the café for the first time, backpack on, not knowing what to order but excited to try everything. This card signals new beginnings, spontaneity, and taking a leap of faith. Trust the menu — something delicious awaits. You don\'t need to have it all figured out. Just show up with curiosity and an open heart.'
+    meaning: 'New beginnings await! Just walk through the door.',
+    fullMeaning: 'A cheerful newcomer walks into the café for the first time, backpack on, not knowing what to order but excited to try everything. This card signals new beginnings, spontaneity, and taking a leap of faith. Trust the menu!  Something delicious awaits. You don\'t need to have it all figured out. Just show up with curiosity and an open heart.'
   },
   {
     id: 'major-1',
@@ -25,7 +25,7 @@ const griddleDeck = [
     suit: 'major',
     number: 1,
     meaning: 'You have everything you need to make magic.',
-    fullMeaning: 'The cook stands at the griddle with every tool within reach — spatula, eggs, butter, fire. Mastery, resourcefulness, and manifestation energy. You have all the ingredients. Stop waiting for permission. Start cooking.'
+    fullMeaning: 'The cook stands at the griddle with every tool within reach:  spatula, eggs, butter, fire. Mastery, resourcefulness, and manifestation energy. You have all the ingredients. Stop waiting for permission. Start cooking.'
   },
   {
     id: 'major-2',
@@ -34,7 +34,7 @@ const griddleDeck = [
     suit: 'major',
     number: 2,
     meaning: 'Trust what you know but haven\'t spoken yet.',
-    fullMeaning: 'An old recipe book, handwritten, passed down through generations. Some things aren\'t on the menu — they\'re known only to those who\'ve earned the knowledge. Intuition, hidden wisdom, sacred secrets. Trust your gut. The answer is already inside you.'
+    fullMeaning: 'An old recipe book, handwritten, passed down through generations. Some things aren\'t on the menu:  they\'re known only to those who\'ve earned the knowledge. Intuition, hidden wisdom, sacred secrets. Trust your gut. The answer is already inside you.'
   },
   {
     id: 'major-3',
@@ -42,8 +42,8 @@ const griddleDeck = [
     emoji: '🌸🥂',
     suit: 'major',
     number: 3,
-    meaning: 'Abundance is flowing — receive it gracefully.',
-    fullMeaning: 'A lavish brunch spread, mimosas flowing, flowers on every table. Nurturing, abundance, sensory pleasure. Let yourself be fed — literally or metaphorically. You are allowed to enjoy the feast.'
+    meaning: 'Abundance is flowing so receive it gracefully.',
+    fullMeaning: 'A lavish brunch spread, mimosas flowing, flowers on every table. Nurturing, abundance, sensory pleasure. Let yourself be fed, literally or metaphorically. You are allowed to enjoy the feast.'
   },
   {
     id: 'major-4',
@@ -52,7 +52,7 @@ const griddleDeck = [
     suit: 'major',
     number: 4,
     meaning: 'Build something that lasts.',
-    fullMeaning: 'The one who opens early, closes late, and knows every regular\'s name. Structure, authority, legacy. What are you building? Is the foundation solid? Lead with integrity — people are watching.'
+    fullMeaning: 'The one who opens early, closes late, and knows every regular\'s name. Structure, authority, legacy. What are you building? Is the foundation solid? Lead with integrity.  People are watching.'
   },
   {
     id: 'major-5',
@@ -69,7 +69,7 @@ const griddleDeck = [
     emoji: '💕🍽️',
     suit: 'major',
     number: 6,
-    meaning: 'Connection calls — who are you sharing the table with?',
+    meaning: 'Connection calls.  Who are you sharing the table with?',
     fullMeaning: 'Two people across from each other, sharing pancakes, lost in conversation. Partnership, choice, alignment of values. Who do you want to break bread with? Choose your people wisely.'
   },
   {
@@ -78,7 +78,7 @@ const griddleDeck = [
     emoji: '🚚💨',
     suit: 'major',
     number: 7,
-    meaning: 'Keep moving forward — momentum is your friend.',
+    meaning: 'Keep moving forward.  Momentum is your friend.',
     fullMeaning: 'A food truck on the move, destination unknown but direction clear. Willpower, determination, travel. You can\'t serve everyone from a parked position. Move. Adapt. Bring your gifts to new places.'
   },
   {
@@ -105,7 +105,7 @@ const griddleDeck = [
     emoji: '🎡📋',
     suit: 'major',
     number: 10,
-    meaning: 'The menu changes — roll with it.',
+    meaning: 'The menu changes.  Roll with it.',
     fullMeaning: 'Today\'s specials are different from yesterday\'s. The wheel turns. Cycles, fate, change. What\'s available today wasn\'t available before and might not be tomorrow. Take the opportunity while it\'s on the board.'
   },
   {
@@ -114,7 +114,7 @@ const griddleDeck = [
     emoji: '⚖️🧾',
     suit: 'major',
     number: 11,
-    meaning: 'Balance the books — what\'s fair is fair.',
+    meaning: 'Balance the books because what\'s fair is fair.',
     fullMeaning: 'Splitting the check evenly, everyone pays their share. Justice, accountability, truth. No one skips out on the bill. What you put in is what you get out. Be honest about what you owe and what you\'re owed.'
   },
   {
@@ -123,7 +123,7 @@ const griddleDeck = [
     emoji: '⏳☕',
     suit: 'major',
     number: 12,
-    meaning: 'Let things develop — don\'t rush the drip.',
+    meaning: 'Let things develop.  Don\'t rush the drip.',
     fullMeaning: 'Cold brew takes 12 hours. Pour-over can\'t be rushed. Suspension, letting go, new perspective. Some things can\'t be microwaved. Surrender to the process. The wait makes it better.'
   },
   {
@@ -169,7 +169,7 @@ const griddleDeck = [
     suit: 'major',
     number: 17,
     meaning: 'Small kindnesses ripple outward.',
-    fullMeaning: 'A jar full of small generosities — dollars, coins, good wishes. Hope, generosity, faith. Every little bit adds up. What you give comes back. Keep the faith and keep giving.'
+    fullMeaning: 'A jar full of small generosities:  dollars, coins, good wishes. Hope, generosity, faith. Every little bit adds up. What you give comes back. Keep the faith and keep giving.'
   },
   {
     id: 'major-18',
@@ -196,7 +196,7 @@ const griddleDeck = [
     suit: 'major',
     number: 20,
     meaning: 'What did you learn from this experience?',
-    fullMeaning: 'A five-star review that changes everything. Reflection, evaluation, awakening. How would you rate your own journey? What feedback have you been ignoring? Time to look honestly at the reviews — your own and others\'.'
+    fullMeaning: 'A five-star review that changes everything. Reflection, evaluation, awakening. How would you rate your own journey? What feedback have you been ignoring? Time to look honestly at the reviews, your own and others\'.'
   },
   {
     id: 'major-21',
@@ -204,7 +204,7 @@ const griddleDeck = [
     emoji: '🌍🍽️',
     suit: 'major',
     number: 21,
-    meaning: 'The journey is complete — savor every bite.',
+    meaning: 'The journey is complete.  Be sure to savor every bite.',
     fullMeaning: 'The full spread: eggs, pancakes, bacon, toast, fruit, coffee, juice. Everything. Completion, wholeness, fulfillment. You made it. The whole menu is yours. This is what satisfaction tastes like.'
   },
 
@@ -218,7 +218,7 @@ const griddleDeck = [
     suit: 'pancakes',
     number: 1,
     meaning: 'A new opportunity for abundance is being served.',
-    fullMeaning: 'A single, perfect golden pancake appears on your plate — the first of many. New financial opportunity, material beginnings, a seed of prosperity. Say yes to this. It\'s the start of something nourishing.'
+    fullMeaning: 'A single, perfect golden pancake appears on your plate, the first of many. New financial opportunity, material beginnings, a seed of prosperity. Say yes to this. It\'s the start of something nourishing.'
   },
   {
     id: 'pancakes-2',
@@ -226,7 +226,7 @@ const griddleDeck = [
     emoji: '🥞⚖️🥞',
     suit: 'pancakes',
     number: 2,
-    meaning: 'Balance your priorities — you can juggle this.',
+    meaning: 'Balance your priorities.  You can juggle this.',
     fullMeaning: 'Two pancakes, two plates, two priorities. Balancing act, adaptability, time management. You can handle both, but not if you let one burn while flipping the other. Stay nimble.'
   },
   {
@@ -253,8 +253,8 @@ const griddleDeck = [
     emoji: '🥞❄️😔',
     suit: 'pancakes',
     number: 5,
-    meaning: 'Hard times — but help is closer than you think.',
-    fullMeaning: 'Cold pancakes, empty syrup bottle, a hungry morning. Financial stress, feeling left out in the cold, material hardship. But look — the café lights are on. Help is available if you\'re willing to ask.'
+    meaning: 'Hard times, but help is closer than you think.',
+    fullMeaning: 'Cold pancakes, empty syrup bottle, a hungry morning. Financial stress, feeling left out in the cold, material hardship. But look, the café lights are on. Help is available if you\'re willing to ask.'
   },
   {
     id: 'pancakes-6',
@@ -271,8 +271,8 @@ const griddleDeck = [
     emoji: '🥞🌱⏳',
     suit: 'pancakes',
     number: 7,
-    meaning: 'The batter is rising — be patient.',
-    fullMeaning: 'Watching the batter slowly rise, waiting to see if your recipe worked. Long-term investment, patience, assessment. You\'ve done the work. Now you wait. It\'s too early to judge — let it develop.'
+    meaning: 'The batter is rising so be patient.',
+    fullMeaning: 'Watching the batter slowly rise, waiting to see if your recipe worked. Long-term investment, patience, assessment. You\'ve done the work. Now you wait. It\'s too early to judge so let it develop.'
   },
   {
     id: 'pancakes-8',
@@ -280,7 +280,7 @@ const griddleDeck = [
     emoji: '🥞📚',
     suit: 'pancakes',
     number: 8,
-    meaning: 'Master your craft — every flip teaches you something.',
+    meaning: 'Master your craft because every flip teaches you something.',
     fullMeaning: 'Practicing the flip over and over, determined to get it perfect. Skill development, dedication, craftsmanship. You\'re in apprentice mode. Keep practicing. Mastery comes from repetition with intention.'
   },
   {
@@ -289,7 +289,7 @@ const griddleDeck = [
     emoji: '🥞🏡😌',
     suit: 'pancakes',
     number: 9,
-    meaning: 'You\'ve built something comfortable — enjoy it.',
+    meaning: 'You\'ve built something comfortable so be sure to enjoy it.',
     fullMeaning: 'A cozy kitchen, a perfect stack, everything you need within reach. Self-sufficiency, luxury, accomplishment. You did it. The abundance you\'re enjoying? You built that. Savor your success.'
   },
   {
@@ -299,7 +299,7 @@ const griddleDeck = [
     suit: 'pancakes',
     number: 10,
     meaning: 'Legacy and abundance shared across generations.',
-    fullMeaning: 'A multi-generational family breakfast, grandparents to grandchildren, recipes passed down. Family wealth, legacy, long-term security. This isn\'t just about you — it\'s about what you\'re building for those who come after.'
+    fullMeaning: 'A multi-generational family breakfast, grandparents to grandchildren, recipes passed down. Family wealth, legacy, long-term security. This isn\'t just about you.  It\'s about what you\'re building for those who come after.'
   },
   {
     id: 'pancakes-page',
@@ -326,7 +326,7 @@ const griddleDeck = [
     suit: 'pancakes',
     number: 13,
     meaning: 'Create an environment where abundance grows.',
-    fullMeaning: 'The one who makes the café feel like home, nurturing customers and staff alike. Practical nurturing, abundance creator, down-to-earth wisdom. Make people feel fed — in every sense of the word.'
+    fullMeaning: 'The one who makes the café feel like home, nurturing customers and staff alike. Practical nurturing, abundance creator, down-to-earth wisdom. Make people feel fed in every sense of the word.'
   },
   {
     id: 'pancakes-king',
@@ -383,7 +383,7 @@ const griddleDeck = [
     emoji: '☕😢☕☕',
     suit: 'coffee',
     number: 5,
-    meaning: 'Don\'t mourn the spilled cups — see what remains.',
+    meaning: 'Don\'t mourn the spilled cups but see what remains.',
     fullMeaning: 'Three cups spilled, but two still full. Grief, regret, focusing on loss. Yes, you lost something. But not everything. Turn around. There\'s still coffee in some of those cups.'
   },
   {
@@ -393,7 +393,7 @@ const griddleDeck = [
     suit: 'coffee',
     number: 6,
     meaning: 'Sweet memories of simpler times.',
-    fullMeaning: 'The coffee your grandmother used to make, nostalgia in every sip. Memory, childhood, innocence. Sometimes we need to revisit where we came from. What felt like home? Go back there — even just in your mind.'
+    fullMeaning: 'The coffee your grandmother used to make, nostalgia in every sip. Memory, childhood, innocence. Sometimes we need to revisit where we came from. What felt like home? Go back there even just in your mind.'
   },
   {
     id: 'coffee-7',
@@ -401,7 +401,7 @@ const griddleDeck = [
     emoji: '☕🌈☁️',
     suit: 'coffee',
     number: 7,
-    meaning: 'So many choices — not all of them are real.',
+    meaning: 'So many choices but not all of them are real.',
     fullMeaning: 'A menu with too many options, some of them illusions. Fantasy, wishful thinking, too many choices. Not every option on this menu is actually available. Get grounded. What\'s real? What\'s just steam?'
   },
   {
@@ -438,7 +438,7 @@ const griddleDeck = [
     suit: 'coffee',
     number: 11,
     meaning: 'A message of the heart is on its way.',
-    fullMeaning: 'A dreamy young person composing a love note over their latte. Romantic message, creative inspiration, emotional news. Stay open. Something — or someone — wants to reach your heart.'
+    fullMeaning: 'A dreamy young person composing a love note over their latte. Romantic message, creative inspiration, emotional news. Stay open. Something or someone wants to reach your heart.'
   },
   {
     id: 'coffee-knight',
@@ -446,7 +446,7 @@ const griddleDeck = [
     emoji: '☕🦢',
     suit: 'coffee',
     number: 12,
-    meaning: 'Follow your heart — even into the unknown.',
+    meaning: 'Follow your heart even into the unknown.',
     fullMeaning: 'The romantic who follows feelings wherever they lead. Heart-led action, romantic gesture, emotional pursuit. Logic has its place, but right now, lead with your heart. Go where it takes you.'
   },
   {
@@ -478,7 +478,7 @@ const griddleDeck = [
     suit: 'butter',
     number: 1,
     meaning: 'A spark of inspiration has landed.',
-    fullMeaning: 'A pat of butter melting on hot pancakes — the sizzle of new energy. Creative spark, new passion, inspired beginning. The fire is lit. Feed it. See where this energy wants to go.'
+    fullMeaning: 'A pat of butter melting on hot pancakes is the sizzle of new energy. Creative spark, new passion, inspired beginning. The fire is lit. Feed it. See where this energy wants to go.'
   },
   {
     id: 'butter-2',
@@ -486,7 +486,7 @@ const griddleDeck = [
     emoji: '🧈🌍',
     suit: 'butter',
     number: 2,
-    meaning: 'You\'re planning something big — keep dreaming.',
+    meaning: 'You\'re planning something big.  Keep dreaming.',
     fullMeaning: 'Looking at a map, imagining all the places breakfast could take you. Planning, future vision, personal power. The world is full of griddles waiting for your butter. Where do you want to go?'
   },
   {
@@ -495,7 +495,7 @@ const griddleDeck = [
     emoji: '🧈🚢',
     suit: 'butter',
     number: 3,
-    meaning: 'Your efforts are shipping out — watch for returns.',
+    meaning: 'Your efforts are shipping out.  Watch for returns.',
     fullMeaning: 'Sending your creations out into the world, waiting for feedback. Expansion, foresight, overseas energy. You\'ve launched something. Now trust the journey. Good news will come back from afar.'
   },
   {
@@ -531,7 +531,7 @@ const griddleDeck = [
     emoji: '🧈🛡️',
     suit: 'butter',
     number: 7,
-    meaning: 'Hold your ground — don\'t let them take your griddle.',
+    meaning: 'Hold your ground:  don\'t let them take your griddle.',
     fullMeaning: 'Defending your station during the breakfast rush, holding firm. Perseverance, defensive position, standing your ground. They\'re coming for your spot. Don\'t give it up. You earned this griddle.'
   },
   {
@@ -540,7 +540,7 @@ const griddleDeck = [
     emoji: '🧈💨🎯',
     suit: 'butter',
     number: 8,
-    meaning: 'Everything is moving fast — stay focused.',
+    meaning: 'Everything is moving fast.  Stay focused.',
     fullMeaning: 'Orders flying, pans sizzling, rapid movement toward the goal. Rapid progress, quick action, momentum. Things are happening FAST. Don\'t slow down now. Ride the wave.'
   },
   {
@@ -549,7 +549,7 @@ const griddleDeck = [
     emoji: '🧈😰🩹',
     suit: 'butter',
     number: 9,
-    meaning: 'You\'re tired but not done — one more push.',
+    meaning: 'You\'re tired but not done.  Just one more push.',
     fullMeaning: 'A weary cook, bandaged from burns, still standing at the griddle. Resilience, persistence, last stand. You\'ve been through it. The burns are real. But you\'re still here. One more round.'
   },
   {
@@ -558,7 +558,7 @@ const griddleDeck = [
     emoji: '🧈😫📦',
     suit: 'butter',
     number: 10,
-    meaning: 'You\'re carrying too much — put something down.',
+    meaning: 'You\'re carrying too much.  Time to put something down.',
     fullMeaning: 'A cook buried under too many orders, overwhelmed, burnt out. Burden, overwhelm, too much fire. You took on more than one person should carry. It\'s not failure to delegate. Put some of these pans down.'
   },
   {
@@ -568,7 +568,7 @@ const griddleDeck = [
     suit: 'butter',
     number: 11,
     meaning: 'An exciting message about a new venture is coming.',
-    fullMeaning: 'An enthusiastic young cook, full of ideas, ready to change the menu. Exciting news, creative message, youthful energy. Someone — maybe you — has a bold idea. Listen to it. This enthusiasm is contagious.'
+    fullMeaning: 'An enthusiastic young cook, full of ideas, ready to change the menu. Exciting news, creative message, youthful energy. Someone, maybe you, has a bold idea. Listen to it. This enthusiasm is contagious.'
   },
   {
     id: 'butter-knight',
@@ -607,8 +607,8 @@ const griddleDeck = [
     emoji: '🍯✨',
     suit: 'syrup',
     number: 1,
-    meaning: 'A breakthrough thought — clarity at last.',
-    fullMeaning: 'Pure maple syrup, truth in its sweetest form. Mental clarity, breakthrough, new idea. The fog lifts. You see it clearly now. Trust this insight — it\'s pure.'
+    meaning: 'A breakthrough thought brings clarity at last.',
+    fullMeaning: 'Pure maple syrup, truth in its sweetest form. Mental clarity, breakthrough, new idea. The fog lifts. You see it clearly now. Trust this insight.  It\'s pure.'
   },
   {
     id: 'syrup-2',
@@ -616,7 +616,7 @@ const griddleDeck = [
     emoji: '🍯⚔️',
     suit: 'syrup',
     number: 2,
-    meaning: 'You\'re avoiding a decision — but you can\'t forever.',
+    meaning: 'You\'re avoiding a decision, but you can\'t forever.',
     fullMeaning: 'Two syrup bottles, blindfolded, unable to choose. Stalemate, avoidance, difficult decision. You can\'t stay blindfolded forever. The choice won\'t make itself. Pick one.'
   },
   {
@@ -634,7 +634,7 @@ const griddleDeck = [
     emoji: '🍯😴🛏️',
     suit: 'syrup',
     number: 4,
-    meaning: 'Rest your mind — it\'s been working too hard.',
+    meaning: 'Rest your mind because it\'s been working too hard.',
     fullMeaning: 'A quiet booth, eyes closed, taking a mental break. Rest, recovery, temporary retreat. Your brain needs a break. Step away from the problem. The answer will come when you stop chasing it.'
   },
   {
@@ -643,7 +643,7 @@ const griddleDeck = [
     emoji: '🍯😈🏆',
     suit: 'syrup',
     number: 5,
-    meaning: 'Someone won unfairly — don\'t sink to their level.',
+    meaning: 'Someone won unfairly so don\'t sink to their level.',
     fullMeaning: 'A cook who cheated to win, hollow victory. Unfairness, defeat, ego. You lost this round, but not because you weren\'t good enough. Keep your integrity. Their win is empty.'
   },
   {
@@ -661,7 +661,7 @@ const griddleDeck = [
     emoji: '🍯🦊',
     suit: 'syrup',
     number: 7,
-    meaning: 'Be clever — not everyone needs to know your recipe.',
+    meaning: 'Be clever because not everyone needs to know your recipe.',
     fullMeaning: 'A sly cook with a secret ingredient, playing it smart. Strategy, cunning, resourcefulness. You don\'t have to show all your cards. Sometimes the smart move is the subtle one.'
   },
   {
@@ -670,8 +670,8 @@ const griddleDeck = [
     emoji: '🍯🕸️😵',
     suit: 'syrup',
     number: 8,
-    meaning: 'You\'ve thought yourself into a trap — but the exit exists.',
-    fullMeaning: 'Stuck in mental loops, overthinking, paralyzed by analysis. Mental prison, restriction, victim mentality. Your thoughts built this cage. Your thoughts can unbuild it. The door isn\'t locked — you just think it is.'
+    meaning: 'You\'ve thought yourself into a trap but the exit exists.',
+    fullMeaning: 'Stuck in mental loops, overthinking, paralyzed by analysis. Mental prison, restriction, victim mentality. Your thoughts built this cage. Your thoughts can unbuild it. The door isn\'t locked.  You just think it is.'
   },
   {
     id: 'syrup-9',
@@ -688,7 +688,7 @@ const griddleDeck = [
     emoji: '🍯🔚🌅',
     suit: 'syrup',
     number: 10,
-    meaning: 'The worst is over — dawn is coming.',
+    meaning: 'The worst is over and dawn is coming.',
     fullMeaning: 'Empty syrup bottle but the sun is rising. A terrible night, but morning comes. Rock bottom, ending, inevitable dawn. You survived the darkest part. It\'s over. Now the only direction is up.'
   },
   {
@@ -697,7 +697,7 @@ const griddleDeck = [
     emoji: '🍯💬',
     suit: 'syrup',
     number: 11,
-    meaning: 'Speak your truth — even if your voice shakes.',
+    meaning: 'Speak your truth even if your voice shakes.',
     fullMeaning: 'A young person with something to say, nervous but determined. New ideas, communication, speaking up. You have something worth saying. The world needs to hear it. Open your mouth.'
   },
   {
