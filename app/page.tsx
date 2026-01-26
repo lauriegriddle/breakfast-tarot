@@ -1170,13 +1170,30 @@ export default function BreakfastTarot() {
           </div>
         )}
 
-        {/* Explore Deck Button */}
-        <button
-          onClick={() => setShowExploreDeck(true)}
-          className="w-full bg-white hover:bg-amber-50 text-amber-700 py-3 rounded-full font-bold shadow-md transition-all flex items-center justify-center gap-2 border-2 border-amber-300 mb-6"
-        >
-          <span>🎴</span> Explore the Full Deck (78 Cards)
-        </button>
+        {/* Explore the Deck - Navigation Links */}
+            <div className="bg-white/60 rounded-xl p-4 mb-6 border border-amber-200">
+              <h3 className="text-amber-800 font-bold text-center mb-3">📚 Explore the Griddle Deck</h3>
+              <div className="flex flex-col gap-2">
+                <a 
+                  href="/major-arcana"
+                  className="w-full bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 text-white py-2 px-4 rounded-full font-bold text-center text-sm transition-all"
+                >
+                  ✨ Major Arcana (22 Cards)
+                </a>
+                <a 
+                  href="/minor-arcana"
+                  className="w-full bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-white py-2 px-4 rounded-full font-bold text-center text-sm transition-all"
+                >
+                  🥞 Minor Arcana (56 Cards)
+                </a>
+                <a 
+                  href="/deck-summary"
+                  className="w-full bg-white hover:bg-amber-50 text-amber-700 py-2 px-4 rounded-full font-bold text-center text-sm border border-amber-300 transition-all"
+                >
+                  🎴 Quick Reference (All 78)
+                </a>
+              </div>
+            </div>
 
         {/* Stats */}
         <div className="bg-white/60 rounded-xl p-4 mb-6 border border-amber-200">

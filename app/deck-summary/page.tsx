@@ -16,7 +16,7 @@ const majorArcana = [
   { number: 7, name: 'The Food Truck', emoji: '🚚💨', traditional: 'The Chariot', meaning: 'Keep moving forward — momentum is your friend.' },
   { number: 8, name: 'The Patient Flip', emoji: '🥞🧘', traditional: 'Strength', meaning: 'The perfect flip can\'t be rushed.' },
   { number: 9, name: 'The Early Bird', emoji: '🌅🧥', traditional: 'The Hermit', meaning: 'Solitude brings clarity.' },
-  { number: 10, name: 'The Specials Board', emoji: '🎡📋', traditional: 'Wheel of Fortune', meaning: 'The menu changes — roll with it.' },
+  { number: 10, name: 'The Specials Board', emoji: '🎡🎴', traditional: 'Wheel of Fortune', meaning: 'The menu changes — roll with it.' },
   { number: 11, name: 'The Fair Split', emoji: '⚖️🧾', traditional: 'Justice', meaning: 'Balance the books — what\'s fair is fair.' },
   { number: 12, name: 'The Slow Brew', emoji: '⏳☕', traditional: 'The Hanged Man', meaning: 'Let things develop — don\'t rush the drip.' },
   { number: 13, name: 'Last Call', emoji: '🌙🚪', traditional: 'Death', meaning: 'One chapter ends so another can begin.' },
@@ -139,7 +139,7 @@ export default function DeckSummaryPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 p-4">
       {/* Background decorations */}
-      <div className="fixed top-4 left-4 text-4xl opacity-10">📋</div>
+      <div className="fixed top-4 left-4 text-4xl opacity-10">🎴</div>
       <div className="fixed top-4 right-4 text-4xl opacity-10">🥞</div>
       <div className="fixed bottom-4 left-4 text-4xl opacity-10">✨</div>
       <div className="fixed bottom-4 right-4 text-4xl opacity-10">🎴</div>
@@ -154,7 +154,7 @@ export default function DeckSummaryPage() {
             ← Back to Daily Card
           </a>
           
-          <div className="text-6xl mb-4">📋</div>
+          <div className="text-6xl mb-4">🎴</div>
           <h1 className="text-4xl font-bold text-amber-800 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
             The Griddle Deck
           </h1>
@@ -180,7 +180,7 @@ export default function DeckSummaryPage() {
             🥞 Minor Arcana (56)
           </a>
           <span className="px-4 py-2 bg-amber-500 text-white rounded-full font-medium">
-            📋 Quick Reference
+            🎴 Quick Reference
           </span>
         </div>
 
