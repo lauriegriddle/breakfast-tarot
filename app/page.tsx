@@ -1280,6 +1280,19 @@ Pull your daily card at breakfasttarot.com 🥞`}
           </div>
         </div>
       )}
+      {/* Footer */}
+        <div className="text-center py-6 text-xs text-amber-700 mt-8">
+          <div>
+            © {new Date().getFullYear()} Breakfast Tarot. All rights reserved.
+            {' | '}
+            <a href="/privacy" className="hover:text-amber-600 underline">Privacy Policy</a>
+            {' | '}
+            <a href="/terms" className="hover:text-amber-600 underline">Terms of Service</a>
+          </div>
+          <div className="mt-2 text-amber-500">
+            Part of the Letter Griddle Family 🥞
+          </div>
+        </div>
     </div>
   );
 }
