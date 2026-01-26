@@ -1204,6 +1204,12 @@ export default function BreakfastTarot() {
                 >
                   🍽️ Breakfast Spreads (Multi-Card)
                 </a>
+                <a 
+              href="/oracle"
+              className="block w-full bg-gradient-to-r from-yellow-400 to-amber-400 hover:from-yellow-500 hover:to-amber-500 text-amber-900 py-3 px-4 rounded-xl font-semibold transition-all shadow-md text-center"
+            >
+              🌅 Breakfast Oracle (22 Cards)
+            </a>
               </div>
             </div>
 
