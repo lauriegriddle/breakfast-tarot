@@ -692,7 +692,7 @@ export default function MinorArcanaPage() {
             <a href="/terms" className="hover:text-amber-500 underline">Terms of Service</a>
           </div>
           <div className="mt-2 text-amber-500">
-            Part of the Letter Breakfast Tarot Family 🥞
+            Part of the Breakfast Tarot Family 🥞
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 // ============================================
-// THE GRIDDLE DECK - 78 CARDS
+// THE BREAKFAST TAROT DECK - 78 CARDS
 // ============================================
 
 const griddleDeck = [
@@ -1080,7 +1080,7 @@ export default function BreakfastTarot() {
           <h1 className="text-3xl font-bold text-amber-800 mb-1" style={{ fontFamily: 'Georgia, serif' }}>
             Breakfast Tarot
           </h1>
-          <p className="text-amber-600 text-sm">Your daily card from the Griddle Deck</p>
+          <p className="text-amber-600 text-sm">Your daily card from the Breakfast Tarot Deck</p>
         </div>
 
         {/* Card */}
@@ -1111,7 +1111,7 @@ export default function BreakfastTarot() {
             >
               <div className="text-6xl mb-4">🥞</div>
               <div className="text-white text-xl font-bold text-center" style={{ fontFamily: 'Georgia, serif' }}>
-                The Griddle Deck
+                The Breakfast Tarot Deck
               </div>
               <div className="text-amber-100 text-sm mt-2">Tap to reveal</div>
               <div className="absolute bottom-4 flex gap-2 text-2xl">
@@ -1178,7 +1178,7 @@ export default function BreakfastTarot() {
             
         {/* Explore the Deck - Navigation Links */}
             <div className="bg-white/60 rounded-xl p-4 mb-6 border border-amber-200">
-              <h3 className="text-amber-800 font-bold text-center mb-3">Explore the Griddle Deck</h3>
+              <h3 className="text-amber-800 font-bold text-center mb-3">Explore the Breakfast Tarot Deck</h3>
               <div className="flex flex-col gap-2">
                 <a 
                   href="/major-arcana"
@@ -1265,7 +1265,7 @@ export default function BreakfastTarot() {
 
         {/* About the deck */}
         <div className="bg-amber-100/50 rounded-xl p-4 border border-amber-200 text-center">
-          <h3 className="text-amber-800 font-bold mb-2">The Griddle Deck</h3>
+          <h3 className="text-amber-800 font-bold mb-2">The Breakfast Tarot Deck</h3>
           <p className="text-sm text-amber-700 mb-3">
             78 cards reimagined for the breakfast table
           </p>

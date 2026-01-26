@@ -237,7 +237,7 @@ export default function SpreadsPage() {
           <h1 className="text-4xl font-bold text-amber-800 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
             Breakfast Spreads
           </h1>
-          <p className="text-amber-600 text-lg mb-2">Multi-Card Readings from the Griddle Deck</p>
+          <p className="text-amber-600 text-lg mb-2">Multi-Card Readings from the Breakfast Tarot Deck</p>
           <p className="text-gray-600 max-w-xl mx-auto">
             Choose your spread, ask your question, and pull your cards. 
             The breakfast table has answers for you.
@@ -508,7 +508,7 @@ export default function SpreadsPage() {
             <a href="/terms" className="hover:text-amber-500 underline">Terms of Service</a>
           </div>
           <div className="mt-2 text-amber-500">
-            Part of the Letter Griddle Family 🥞
+            Part of the Breakfast Tarot Family 🥞
           </div>
         </div>
       </div>

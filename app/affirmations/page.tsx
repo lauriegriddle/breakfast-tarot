@@ -192,12 +192,12 @@ export default function AffirmationsPage() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-amber-800 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
-            🥞 Cafe
+           Breakfast Affirmations
           </h1>
           <h2 className="text-xl text-amber-700 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
-            Breakfast Affirmations
+                 🥞 
           </h2>
-          <p className="text-amber-600 text-sm">22 whispers of warmth and wisdom from the cafe</p>
+          <p className="text-amber-600 text-sm">22 whispers of warmth and wisdom from the breakfast cafe</p>
         </div>
 
         {/* Card Area */}
@@ -214,7 +214,7 @@ export default function AffirmationsPage() {
                   Receive Your Affirmation
                 </h3>
                 <p className="text-amber-700 mb-2">
-                  A gentle message from the Cafe
+                  A gentle message from the breakfast cafe
                 </p>
                 <p className="text-amber-600 text-sm">Tap to pull a card</p>
               </div>
@@ -223,10 +223,10 @@ export default function AffirmationsPage() {
             {/* About Section */}
             <div className="bg-white/60 rounded-2xl p-6 border border-amber-200">
               <h3 className="text-lg font-bold text-amber-800 mb-3 text-center" style={{ fontFamily: 'Georgia, serif' }}>
-                ☕ From the Cafe
+                From the Breakfast Cafe
               </h3>
               <p className="text-amber-700 text-center text-sm leading-relaxed mb-4">
-                These 22 affirmations carry the cozy magic of the Cafe. 
+                These 22 affirmations carry the cozy magic of the cafe. 
                 Each card holds a whisper of encouragement, a warm reminder of your own abundance, 
                 and a gentle nudge toward your highest vibration.
               </p>
