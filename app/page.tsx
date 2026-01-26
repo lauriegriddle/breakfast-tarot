@@ -1210,6 +1210,12 @@ export default function BreakfastTarot() {
             >
               🌅 Breakfast Oracle (22 Cards)
             </a>
+            <a 
+              href="/affirmations"
+              className="block w-full bg-gradient-to-r from-amber-200 to-yellow-200 hover:from-amber-300 hover:to-yellow-300 text-amber-800 py-3 px-4 rounded-xl font-semibold transition-all shadow-md text-center border border-amber-300"
+            >
+              ✨ Breakfast Affirmations (22 Cards)
+            </a>
               </div>
             </div>
 
