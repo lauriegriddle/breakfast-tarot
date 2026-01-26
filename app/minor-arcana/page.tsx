@@ -21,13 +21,13 @@ const suits = {
         name: 'Ace of Pancakes',
         emoji: '🥞✨',
         meaning: 'A new opportunity for abundance is being served.',
-        fullMeaning: 'A single, perfect golden pancake appears on your plate — the first of many. New financial opportunity, material beginnings, a seed of prosperity. Say yes to this. It\'s the start of something nourishing.'
+        fullMeaning: 'A single, perfect golden pancake appears on your plate, the first of many. New financial opportunity, material beginnings, a seed of prosperity. Say yes to this. It\'s the start of something nourishing.'
       },
       {
         number: 2,
         name: 'Two of Pancakes',
         emoji: '🥞⚖️🥞',
-        meaning: 'Balance your priorities — you can juggle this.',
+        meaning: 'Balance your priorities so you can juggle this.',
         fullMeaning: 'Two pancakes, two plates, two priorities. Balancing act, adaptability, time management. You can handle both, but not if you let one burn while flipping the other. Stay nimble.'
       },
       {
@@ -48,8 +48,8 @@ const suits = {
         number: 5,
         name: 'Five of Pancakes',
         emoji: '🥞❄️😔',
-        meaning: 'Hard times — but help is closer than you think.',
-        fullMeaning: 'Cold pancakes, empty syrup bottle, a hungry morning. Financial stress, feeling left out in the cold, material hardship. But look — the café lights are on. Help is available if you\'re willing to ask.'
+        meaning: 'Hard times but help is closer than you think.',
+        fullMeaning: 'Cold pancakes, empty syrup bottle, a hungry morning. Financial stress, feeling left out in the cold, material hardship. But look, the café lights are on. Help is available if you\'re willing to ask.'
       },
       {
         number: 6,
@@ -62,21 +62,21 @@ const suits = {
         number: 7,
         name: 'Seven of Pancakes',
         emoji: '🥞🌱⏳',
-        meaning: 'The batter is rising — be patient.',
-        fullMeaning: 'Watching the batter slowly rise, waiting to see if your recipe worked. Long-term investment, patience, assessment. You\'ve done the work. Now you wait. It\'s too early to judge — let it develop.'
+        meaning: 'The batter is rising just be patient.',
+        fullMeaning: 'Watching the batter slowly rise, waiting to see if your recipe worked. Long-term investment, patience, assessment. You\'ve done the work. Now you wait. It\'s too early to judge so let it develop.'
       },
       {
         number: 8,
         name: 'Eight of Pancakes',
         emoji: '🥞📚',
-        meaning: 'Master your craft — every flip teaches you something.',
+        meaning: 'Master your craft because every flip teaches you something.',
         fullMeaning: 'Practicing the flip over and over, determined to get it perfect. Skill development, dedication, craftsmanship. You\'re in apprentice mode. Keep practicing. Mastery comes from repetition with intention.'
       },
       {
         number: 9,
         name: 'Nine of Pancakes',
         emoji: '🥞🏡😌',
-        meaning: 'You\'ve built something comfortable — enjoy it.',
+        meaning: 'You\'ve built something comfortable so enjoy it.',
         fullMeaning: 'A cozy kitchen, a perfect stack, everything you need within reach. Self-sufficiency, luxury, accomplishment. You did it. The abundance you\'re enjoying? You built that. Savor your success.'
       },
       {
@@ -84,7 +84,7 @@ const suits = {
         name: 'Ten of Pancakes',
         emoji: '🥞👨‍👩‍👧‍👦🏠',
         meaning: 'Legacy and abundance shared across generations.',
-        fullMeaning: 'A multi-generational family breakfast, grandparents to grandchildren, recipes passed down. Family wealth, legacy, long-term security. This isn\'t just about you — it\'s about what you\'re building for those who come after.'
+        fullMeaning: 'A multi-generational family breakfast, grandparents to grandchildren, recipes passed down. Family wealth, legacy, long-term security. This isn\'t just about you; it\'s about what you\'re building for those who come after.'
       },
       {
         number: 11,
@@ -105,7 +105,7 @@ const suits = {
         name: 'Queen of Pancakes',
         emoji: '🥞👑🌿',
         meaning: 'Create an environment where abundance grows.',
-        fullMeaning: 'The one who makes the café feel like home, nurturing customers and staff alike. Practical nurturing, abundance creator, down-to-earth wisdom. Make people feel fed — in every sense of the word.'
+        fullMeaning: 'The one who makes the café feel like home, nurturing customers and staff alike. Practical nurturing, abundance creator, down-to-earth wisdom. Make people feel fed in every sense of the word.'
       },
       {
         number: 14,
@@ -158,7 +158,7 @@ const suits = {
         number: 5,
         name: 'Five of Coffee',
         emoji: '☕😢☕☕',
-        meaning: 'Don\'t mourn the spilled cups — see what remains.',
+        meaning: 'Don\'t mourn the spilled cups:  see what remains.',
         fullMeaning: 'Three cups spilled, but two still full. Grief, regret, focusing on loss. Yes, you lost something. But not everything. Turn around. There\'s still coffee in some of those cups.'
       },
       {
@@ -166,13 +166,13 @@ const suits = {
         name: 'Six of Coffee',
         emoji: '☕👶🏠',
         meaning: 'Sweet memories of simpler times.',
-        fullMeaning: 'The coffee your grandmother used to make, nostalgia in every sip. Memory, childhood, innocence. Sometimes we need to revisit where we came from. What felt like home? Go back there — even just in your mind.'
+        fullMeaning: 'The coffee your grandmother used to make, nostalgia in every sip. Memory, childhood, innocence. Sometimes we need to revisit where we came from. What felt like home? Go back there even just in your mind.'
       },
       {
         number: 7,
         name: 'Seven of Coffee',
         emoji: '☕🌈☁️',
-        meaning: 'So many choices — not all of them are real.',
+        meaning: 'So many choices but not all of them are real.',
         fullMeaning: 'A menu with too many options, some of them illusions. Fantasy, wishful thinking, too many choices. Not every option on this menu is actually available. Get grounded. What\'s real? What\'s just steam?'
       },
       {
@@ -201,13 +201,13 @@ const suits = {
         name: 'Page of Coffee',
         emoji: '☕💌',
         meaning: 'A message of the heart is on its way.',
-        fullMeaning: 'A dreamy young person composing a love note over their latte. Romantic message, creative inspiration, emotional news. Stay open. Something — or someone — wants to reach your heart.'
+        fullMeaning: 'A dreamy young person composing a love note over their latte. Romantic message, creative inspiration, emotional news. Stay open. Something, or someone, wants to reach your heart.'
       },
       {
         number: 12,
         name: 'Knight of Coffee',
         emoji: '☕🦢',
-        meaning: 'Follow your heart — even into the unknown.',
+        meaning: 'Follow your heart even into the unknown.',
         fullMeaning: 'The romantic who follows feelings wherever they lead. Heart-led action, romantic gesture, emotional pursuit. Logic has its place, but right now, lead with your heart. Go where it takes you.'
       },
       {
@@ -241,20 +241,20 @@ const suits = {
         name: 'Ace of Butter',
         emoji: '🧈✨',
         meaning: 'A spark of inspiration has landed.',
-        fullMeaning: 'A pat of butter melting on hot pancakes — the sizzle of new energy. Creative spark, new passion, inspired beginning. The fire is lit. Feed it. See where this energy wants to go.'
+        fullMeaning: 'A pat of butter melting on hot pancakes is the sizzle of new energy. Creative spark, new passion, inspired beginning. The fire is lit. Feed it. See where this energy wants to go.'
       },
       {
         number: 2,
         name: 'Two of Butter',
         emoji: '🧈🌍',
-        meaning: 'You\'re planning something big — keep dreaming.',
+        meaning: 'You\'re planning something big so keep dreaming.',
         fullMeaning: 'Looking at a map, imagining all the places breakfast could take you. Planning, future vision, personal power. The world is full of griddles waiting for your butter. Where do you want to go?'
       },
       {
         number: 3,
         name: 'Three of Butter',
         emoji: '🧈🚢',
-        meaning: 'Your efforts are shipping out — watch for returns.',
+        meaning: 'Your efforts are shipping out so watch for returns.',
         fullMeaning: 'Sending your creations out into the world, waiting for feedback. Expansion, foresight, overseas energy. You\'ve launched something. Now trust the journey. Good news will come back from afar.'
       },
       {
@@ -282,28 +282,28 @@ const suits = {
         number: 7,
         name: 'Seven of Butter',
         emoji: '🧈🛡️',
-        meaning: 'Hold your ground — don\'t let them take your griddle.',
+        meaning: 'Hold your ground:  don\'t let them take your griddle.',
         fullMeaning: 'Defending your station during the breakfast rush, holding firm. Perseverance, defensive position, standing your ground. They\'re coming for your spot. Don\'t give it up. You earned this griddle.'
       },
       {
         number: 8,
         name: 'Eight of Butter',
         emoji: '🧈💨🎯',
-        meaning: 'Everything is moving fast — stay focused.',
+        meaning: 'Everything is moving fast so stay focused.',
         fullMeaning: 'Orders flying, pans sizzling, rapid movement toward the goal. Rapid progress, quick action, momentum. Things are happening FAST. Don\'t slow down now. Ride the wave.'
       },
       {
         number: 9,
         name: 'Nine of Butter',
         emoji: '🧈😰🩹',
-        meaning: 'You\'re tired but not done — one more push.',
+        meaning: 'You\'re tired but not done:  just one more push.',
         fullMeaning: 'A weary cook, bandaged from burns, still standing at the griddle. Resilience, persistence, last stand. You\'ve been through it. The burns are real. But you\'re still here. One more round.'
       },
       {
         number: 10,
         name: 'Ten of Butter',
         emoji: '🧈😫📦',
-        meaning: 'You\'re carrying too much — put something down.',
+        meaning: 'You\'re carrying too much so put something down.',
         fullMeaning: 'A cook buried under too many orders, overwhelmed, burnt out. Burden, overwhelm, too much fire. You took on more than one person should carry. It\'s not failure to delegate. Put some of these pans down.'
       },
       {
@@ -311,7 +311,7 @@ const suits = {
         name: 'Page of Butter',
         emoji: '🧈📣',
         meaning: 'An exciting message about a new venture is coming.',
-        fullMeaning: 'An enthusiastic young cook, full of ideas, ready to change the menu. Exciting news, creative message, youthful energy. Someone — maybe you — has a bold idea. Listen to it. This enthusiasm is contagious.'
+        fullMeaning: 'An enthusiastic young cook, full of ideas, ready to change the menu. Exciting news, creative message, youthful energy. Someone, maybe you, has a bold idea. Listen to it. This enthusiasm is contagious.'
       },
       {
         number: 12,
@@ -350,14 +350,14 @@ const suits = {
         number: 1,
         name: 'Ace of Syrup',
         emoji: '🍯✨',
-        meaning: 'A breakthrough thought — clarity at last.',
-        fullMeaning: 'Pure maple syrup, truth in its sweetest form. Mental clarity, breakthrough, new idea. The fog lifts. You see it clearly now. Trust this insight — it\'s pure.'
+        meaning: 'A breakthrough thought brings clarity at last.',
+        fullMeaning: 'Pure maple syrup, truth in its sweetest form. Mental clarity, breakthrough, new idea. The fog lifts. You see it clearly now. Trust this insight.  It\'s pure.'
       },
       {
         number: 2,
         name: 'Two of Syrup',
         emoji: '🍯⚔️',
-        meaning: 'You\'re avoiding a decision — but you can\'t forever.',
+        meaning: 'You\'re avoiding a decision but you can\'t forever.',
         fullMeaning: 'Two syrup bottles, blindfolded, unable to choose. Stalemate, avoidance, difficult decision. You can\'t stay blindfolded forever. The choice won\'t make itself. Pick one.'
       },
       {
@@ -371,14 +371,14 @@ const suits = {
         number: 4,
         name: 'Four of Syrup',
         emoji: '🍯😴🛏️',
-        meaning: 'Rest your mind — it\'s been working too hard.',
+        meaning: 'Rest your mind; it\'s been working too hard.',
         fullMeaning: 'A quiet booth, eyes closed, taking a mental break. Rest, recovery, temporary retreat. Your brain needs a break. Step away from the problem. The answer will come when you stop chasing it.'
       },
       {
         number: 5,
         name: 'Five of Syrup',
         emoji: '🍯😈🏆',
-        meaning: 'Someone won unfairly — don\'t sink to their level.',
+        meaning: 'Someone won unfairly so don\'t sink to their level.',
         fullMeaning: 'A cook who cheated to win, hollow victory. Unfairness, defeat, ego. You lost this round, but not because you weren\'t good enough. Keep your integrity. Their win is empty.'
       },
       {
@@ -392,15 +392,15 @@ const suits = {
         number: 7,
         name: 'Seven of Syrup',
         emoji: '🍯🦊',
-        meaning: 'Be clever — not everyone needs to know your recipe.',
+        meaning: 'Be clever:  not everyone needs to know your recipe.',
         fullMeaning: 'A sly cook with a secret ingredient, playing it smart. Strategy, cunning, resourcefulness. You don\'t have to show all your cards. Sometimes the smart move is the subtle one.'
       },
       {
         number: 8,
         name: 'Eight of Syrup',
         emoji: '🍯🕸️😵',
-        meaning: 'You\'ve thought yourself into a trap — but the exit exists.',
-        fullMeaning: 'Stuck in mental loops, overthinking, paralyzed by analysis. Mental prison, restriction, victim mentality. Your thoughts built this cage. Your thoughts can unbuild it. The door isn\'t locked — you just think it is.'
+        meaning: 'You\'ve thought yourself into a trap but the exit exists.',
+        fullMeaning: 'Stuck in mental loops, overthinking, paralyzed by analysis. Mental prison, restriction, victim mentality. Your thoughts built this cage. Your thoughts can unbuild it. The door isn\'t locked:  you just think it is.'
       },
       {
         number: 9,
@@ -413,7 +413,7 @@ const suits = {
         number: 10,
         name: 'Ten of Syrup',
         emoji: '🍯🔚🌅',
-        meaning: 'The worst is over — dawn is coming.',
+        meaning: 'The worst is over and dawn is coming.',
         fullMeaning: 'Empty syrup bottle but the sun is rising. A terrible night, but morning comes. Rock bottom, ending, inevitable dawn. You survived the darkest part. It\'s over. Now the only direction is up.'
       },
       {
