@@ -1169,7 +1169,13 @@ export default function BreakfastTarot() {
             </button>
           </div>
         )}
-
+<button
+              onClick={() => setShowExploreDeck(true)}
+              className="w-full bg-white hover:bg-amber-50 text-amber-700 py-3 rounded-full font-bold border border-amber-200 mb-4"
+            >
+              <span>🎴</span> Explore the Full Deck (78 Cards)
+            </button>
+            
         {/* Explore the Deck - Navigation Links */}
             <div className="bg-white/60 rounded-xl p-4 mb-6 border border-amber-200">
               <h3 className="text-amber-800 font-bold text-center mb-3">📚 Explore the Griddle Deck</h3>
@@ -1191,6 +1197,12 @@ export default function BreakfastTarot() {
                   className="w-full bg-white hover:bg-amber-50 text-amber-700 py-2 px-4 rounded-full font-bold text-center text-sm border border-amber-300 transition-all"
                 >
                   🎴 Quick Reference (All 78)
+                </a>
+                <a 
+                  href="/spreads"
+                  className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white py-2 px-4 rounded-full font-bold text-center text-sm transition-all"
+                >
+                  🍽️ Breakfast Spreads (Multi-Card)
                 </a>
               </div>
             </div>
