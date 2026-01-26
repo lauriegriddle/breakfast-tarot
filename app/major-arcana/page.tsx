@@ -11,8 +11,8 @@ const majorArcana = [
     name: 'The First Timer',
     emoji: '🎒☕',
     traditional: 'The Fool',
-    meaning: 'New beginnings await — just walk through the door.',
-    fullMeaning: 'A cheerful newcomer walks into the café for the first time, backpack on, not knowing what to order but excited to try everything. This card signals new beginnings, spontaneity, and taking a leap of faith. Trust the menu — something delicious awaits. You don\'t need to have it all figured out. Just show up with curiosity and an open heart.'
+    meaning: 'New beginnings await:  just walk through the door.',
+    fullMeaning: 'A cheerful newcomer walks into the café for the first time, backpack on, not knowing what to order but excited to try everything. This card signals new beginnings, spontaneity, and taking a leap of faith. Trust the menu; something delicious awaits. You don\'t need to have it all figured out. Just show up with curiosity and an open heart.'
   },
   {
     number: 1,
@@ -20,7 +20,7 @@ const majorArcana = [
     emoji: '🍳✨',
     traditional: 'The Magician',
     meaning: 'You have everything you need to make magic.',
-    fullMeaning: 'The cook stands at the griddle with every tool within reach — spatula, eggs, butter, fire. Mastery, resourcefulness, and manifestation energy. You have all the ingredients. Stop waiting for permission. Start cooking.'
+    fullMeaning: 'The cook stands at the griddle with every tool within reach:  spatula, eggs, butter, fire. Mastery, resourcefulness, and manifestation energy. You have all the ingredients. Stop waiting for permission. Start cooking.'
   },
   {
     number: 2,
@@ -28,15 +28,15 @@ const majorArcana = [
     emoji: '📖🤫',
     traditional: 'The High Priestess',
     meaning: 'Trust what you know but haven\'t spoken yet.',
-    fullMeaning: 'An old recipe book, handwritten, passed down through generations. Some things aren\'t on the menu — they\'re known only to those who\'ve earned the knowledge. Intuition, hidden wisdom, sacred secrets. Trust your gut. The answer is already inside you.'
+    fullMeaning: 'An old recipe book, handwritten, passed down through generations. Some things aren\'t on the menu; they\'re known only to those who\'ve earned the knowledge. Intuition, hidden wisdom, sacred secrets. Trust your gut. The answer is already inside you.'
   },
   {
     number: 3,
     name: 'The Brunch Hostess',
     emoji: '🌸🥂',
     traditional: 'The Empress',
-    meaning: 'Abundance is flowing — receive it gracefully.',
-    fullMeaning: 'A lavish brunch spread, mimosas flowing, flowers on every table. Nurturing, abundance, sensory pleasure. Let yourself be fed — literally or metaphorically. You are allowed to enjoy the feast.'
+    meaning: 'Abundance is flowing so receive it gracefully.',
+    fullMeaning: 'A lavish brunch spread, mimosas flowing, flowers on every table. Nurturing, abundance, sensory pleasure. Let yourself be fed, literally or metaphorically. You are allowed to enjoy the feast.'
   },
   {
     number: 4,
@@ -44,7 +44,7 @@ const majorArcana = [
     emoji: '🏪👔',
     traditional: 'The Emperor',
     meaning: 'Build something that lasts.',
-    fullMeaning: 'The one who opens early, closes late, and knows every regular\'s name. Structure, authority, legacy. What are you building? Is the foundation solid? Lead with integrity — people are watching.'
+    fullMeaning: 'The one who opens early, closes late, and knows every regular\'s name. Structure, authority, legacy. What are you building? Is the foundation solid? Lead with integrity; people are watching.'
   },
   {
     number: 5,
@@ -59,7 +59,7 @@ const majorArcana = [
     name: 'The Breakfast Date',
     emoji: '💕🍽️',
     traditional: 'The Lovers',
-    meaning: 'Connection calls — who are you sharing the table with?',
+    meaning: 'Connection calls; who are you sharing the table with?',
     fullMeaning: 'Two people across from each other, sharing pancakes, lost in conversation. Partnership, choice, alignment of values. Who do you want to break bread with? Choose your people wisely.'
   },
   {
@@ -67,7 +67,7 @@ const majorArcana = [
     name: 'The Food Truck',
     emoji: '🚚💨',
     traditional: 'The Chariot',
-    meaning: 'Keep moving forward — momentum is your friend.',
+    meaning: 'Keep moving forward; momentum is your friend.',
     fullMeaning: 'A food truck on the move, destination unknown but direction clear. Willpower, determination, travel. You can\'t serve everyone from a parked position. Move. Adapt. Bring your gifts to new places.'
   },
   {
@@ -91,7 +91,7 @@ const majorArcana = [
     name: 'The Specials Board',
     emoji: '🎡📋',
     traditional: 'Wheel of Fortune',
-    meaning: 'The menu changes — roll with it.',
+    meaning: 'The menu changes so roll with it.',
     fullMeaning: 'Today\'s specials are different from yesterday\'s. The wheel turns. Cycles, fate, change. What\'s available today wasn\'t available before and might not be tomorrow. Take the opportunity while it\'s on the board.'
   },
   {
@@ -99,7 +99,7 @@ const majorArcana = [
     name: 'The Fair Split',
     emoji: '⚖️🧾',
     traditional: 'Justice',
-    meaning: 'Balance the books — what\'s fair is fair.',
+    meaning: 'Balance the books because what\'s fair is fair.',
     fullMeaning: 'Splitting the check evenly, everyone pays their share. Justice, accountability, truth. No one skips out on the bill. What you put in is what you get out. Be honest about what you owe and what you\'re owed.'
   },
   {
@@ -107,7 +107,7 @@ const majorArcana = [
     name: 'The Slow Brew',
     emoji: '⏳☕',
     traditional: 'The Hanged Man',
-    meaning: 'Let things develop — don\'t rush the drip.',
+    meaning: 'Let things develop; don\'t rush the drip.',
     fullMeaning: 'Cold brew takes 12 hours. Pour-over can\'t be rushed. Suspension, letting go, new perspective. Some things can\'t be microwaved. Surrender to the process. The wait makes it better.'
   },
   {
@@ -148,7 +148,7 @@ const majorArcana = [
     emoji: '⭐🫙',
     traditional: 'The Star',
     meaning: 'Small kindnesses ripple outward.',
-    fullMeaning: 'A jar full of small generosities — dollars, coins, good wishes. Hope, generosity, faith. Every little bit adds up. What you give comes back. Keep the faith and keep giving.'
+    fullMeaning: 'A jar full of small generosities:  dollars, coins, good wishes. Hope, generosity, faith. Every little bit adds up. What you give comes back. Keep the faith and keep giving.'
   },
   {
     number: 18,
@@ -172,14 +172,14 @@ const majorArcana = [
     emoji: '⭐⭐⭐⭐⭐',
     traditional: 'Judgement',
     meaning: 'What did you learn from this experience?',
-    fullMeaning: 'A five-star review that changes everything. Reflection, evaluation, awakening. How would you rate your own journey? What feedback have you been ignoring? Time to look honestly at the reviews — your own and others\'.'
+    fullMeaning: 'A five-star review that changes everything. Reflection, evaluation, awakening. How would you rate your own journey? What feedback have you been ignoring? Time to look honestly at the reviews:  your own and others\'.'
   },
   {
     number: 21,
     name: 'The Full Breakfast',
     emoji: '🌍🍽️',
     traditional: 'The World',
-    meaning: 'The journey is complete — savor every bite.',
+    meaning: 'The journey is complete so savor every bite.',
     fullMeaning: 'The full spread: eggs, pancakes, bacon, toast, fruit, coffee, juice. Everything. Completion, wholeness, fulfillment. You made it. The whole menu is yours. This is what satisfaction tastes like.'
   }
 ];
@@ -214,7 +214,7 @@ export default function MajorArcanaPage() {
           <p className="text-purple-600 text-lg mb-2">22 Cards of Life's Big Moments</p>
           <p className="text-gray-600 max-w-2xl mx-auto">
             The Major Arcana represents significant life events, spiritual lessons, and the soul's journey. 
-            In the Griddle Deck, these cards tell the story of a day at the café — from walking in as a 
+            In the Griddle Deck, these cards tell the story of a day at the café:  from walking in as a 
             First Timer to enjoying The Full Breakfast of completion.
           </p>
         </div>
@@ -244,12 +244,12 @@ export default function MajorArcanaPage() {
             🥞 The Fool's Journey... Reimagined
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Traditional tarot tells the story of The Fool's Journey — a spiritual path from innocence to enlightenment. 
+            Traditional tarot tells the story of The Fool's Journey:  a spiritual path from innocence to enlightenment. 
             In the Griddle Deck, we tell the same story through the lens of a cozy café: You walk in not knowing 
             what to expect (<strong>The First Timer</strong>), learn to cook your own breakfast 
             (<strong>The Short Order Cook</strong>), face challenges like burnt pancakes 
             (<strong>The Smoke Alarm</strong>), and eventually sit down to enjoy 
-            <strong> The Full Breakfast</strong> — the reward of a life fully lived.
+            <strong> The Full Breakfast: </strong> The reward of a life fully lived.
           </p>
         </div>
 
