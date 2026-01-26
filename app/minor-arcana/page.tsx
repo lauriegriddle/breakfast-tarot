@@ -501,7 +501,7 @@ export default function MinorArcanaPage() {
             href="/deck-summary"
             className="px-4 py-2 bg-white text-amber-700 rounded-full font-medium hover:bg-amber-50 border border-amber-300"
           >
-            📋 Quick Reference
+            🎴 Quick Reference
           </a>
         </div>
 
