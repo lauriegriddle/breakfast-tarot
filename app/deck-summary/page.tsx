@@ -156,7 +156,7 @@ export default function DeckSummaryPage() {
           
           <div className="text-6xl mb-4">🎴</div>
           <h1 className="text-4xl font-bold text-amber-800 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
-            The Griddle Deck
+            The Breakfast Tarot Deck
           </h1>
           <p className="text-amber-600 text-lg mb-2">Complete 78-Card Quick Reference</p>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -294,7 +294,7 @@ export default function DeckSummaryPage() {
                   <tr className="bg-purple-100">
                     <th className="px-3 py-2 text-left text-purple-800 w-12">#</th>
                     <th className="px-3 py-2 text-left text-purple-800 w-16">Icon</th>
-                    <th className="px-3 py-2 text-left text-purple-800">Griddle Card</th>
+                    <th className="px-3 py-2 text-left text-purple-800">Breakfast Card</th>
                     <th className="px-3 py-2 text-left text-purple-800 hidden md:table-cell">Traditional</th>
                     <th className="px-3 py-2 text-left text-purple-800">Meaning</th>
                   </tr>
@@ -358,7 +358,7 @@ export default function DeckSummaryPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-amber-100">
-                  <th className="px-4 py-3 text-left text-amber-800">Griddle Suit</th>
+                  <th className="px-4 py-3 text-left text-amber-800">Breakfast Suit</th>
                   <th className="px-4 py-3 text-left text-amber-800">Traditional</th>
                   <th className="px-4 py-3 text-left text-amber-800">Element</th>
                   <th className="px-4 py-3 text-left text-amber-800">Domain</th>
@@ -466,7 +466,7 @@ export default function DeckSummaryPage() {
             <a href="/terms" className="hover:text-amber-500 underline">Terms of Service</a>
           </div>
           <div className="mt-2 text-amber-500">
-            Part of the Letter Griddle Family 🥞
+            Part of the Breakfast Tarot Family 🥞
           </div>
         </div>
       </div>

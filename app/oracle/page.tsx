@@ -277,7 +277,7 @@ export default function OraclePage() {
                 href="/"
                 className="inline-block bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-full font-semibold transition-all"
               >
-                🎴 Back to Griddle Deck Tarot
+                🎴 Back to Breakfast Tarot
               </a>
             </div>
           </div>

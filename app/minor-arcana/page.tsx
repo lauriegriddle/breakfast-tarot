@@ -481,7 +481,7 @@ export default function MinorArcanaPage() {
           <p className="text-amber-600 text-lg mb-2">56 Cards of Daily Life</p>
           <p className="text-gray-600 max-w-2xl mx-auto">
             The Minor Arcana represents the everyday moments, choices, and challenges of life. 
-            In the Griddle Deck, four suits tell the story of what happens at the breakfast table:
+            In the Breakfast Tarot Deck, four suits tell the story of what happens at the breakfast table:
             what you have (Pancakes), how you feel (Coffee), what drives you (Butter), and how you think (Syrup).
           </p>
         </div>
@@ -692,7 +692,7 @@ export default function MinorArcanaPage() {
             <a href="/terms" className="hover:text-amber-500 underline">Terms of Service</a>
           </div>
           <div className="mt-2 text-amber-500">
-            Part of the Letter Griddle Family 🥞
+            Part of the Letter Breakfast Tarot Family 🥞
           </div>
         </div>
       </div>

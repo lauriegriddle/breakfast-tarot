@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 
-// 22 Letter Griddle Breakfast Affirmations
+// 22 Breakfast Affirmations
 const affirmationCards = [
   {
     id: 1,
@@ -192,7 +192,7 @@ export default function AffirmationsPage() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-amber-800 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
-            🥞 Letter Griddle Cafe
+            🥞 Cafe
           </h1>
           <h2 className="text-xl text-amber-700 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
             Breakfast Affirmations
@@ -214,7 +214,7 @@ export default function AffirmationsPage() {
                   Receive Your Affirmation
                 </h3>
                 <p className="text-amber-700 mb-2">
-                  A gentle message from the Letter Griddle Cafe
+                  A gentle message from the Cafe
                 </p>
                 <p className="text-amber-600 text-sm">Tap to pull a card</p>
               </div>
@@ -226,7 +226,7 @@ export default function AffirmationsPage() {
                 ☕ From the Cafe
               </h3>
               <p className="text-amber-700 text-center text-sm leading-relaxed mb-4">
-                These 22 affirmations carry the cozy magic of the Letter Griddle Cafe. 
+                These 22 affirmations carry the cozy magic of the Cafe. 
                 Each card holds a whisper of encouragement, a warm reminder of your own abundance, 
                 and a gentle nudge toward your highest vibration.
               </p>
@@ -268,7 +268,7 @@ export default function AffirmationsPage() {
                   <div className="h-80 flex flex-col items-center justify-center text-white p-6">
                     <div className="text-5xl mb-4">🥞</div>
                     <div className="text-xl font-bold text-center" style={{ fontFamily: 'Georgia, serif' }}>
-                      Letter Griddle Cafe
+                      Cafe
                     </div>
                     <div className="text-sm mt-2 opacity-90">Breakfast Affirmations</div>
                     <div className="text-xs mt-4 opacity-80">Tap to reveal</div>
@@ -358,7 +358,7 @@ export default function AffirmationsPage() {
             "Come for the pancakes, stay for the magic."
           </p>
           <p className="text-amber-500 text-xs">
-            Part of the Letter Griddle Family 🥞
+            Part of the Breakfast Tarot Family 🥞
           </p>
           <div className="flex justify-center gap-4 text-sm">
             <a href="/" className="text-amber-700 hover:text-amber-900 underline">Daily Tarot</a>

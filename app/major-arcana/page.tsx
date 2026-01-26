@@ -214,7 +214,7 @@ export default function MajorArcanaPage() {
           <p className="text-purple-600 text-lg mb-2">22 Cards of Life's Big Moments</p>
           <p className="text-gray-600 max-w-2xl mx-auto">
             The Major Arcana represents significant life events, spiritual lessons, and the soul's journey. 
-            In the Griddle Deck, these cards tell the story of a day at the café:  from walking in as a 
+            In the Breakfast Tarot Deck, these cards tell the story of a day at the café:  from walking in as a 
             First Timer to enjoying The Full Breakfast of completion.
           </p>
         </div>
@@ -245,7 +245,7 @@ export default function MajorArcanaPage() {
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Traditional tarot tells the story of The Fool's Journey:  a spiritual path from innocence to enlightenment. 
-            In the Griddle Deck, we tell the same story through the lens of a cozy café: You walk in not knowing 
+            In the Breakfast Tarot Deck, we tell the same story through the lens of a cozy café: You walk in not knowing 
             what to expect (<strong>The First Timer</strong>), learn to cook your own breakfast 
             (<strong>The Short Order Cook</strong>), face challenges like burnt pancakes 
             (<strong>The Smoke Alarm</strong>), and eventually sit down to enjoy 
@@ -353,7 +353,7 @@ export default function MajorArcanaPage() {
             <a href="/terms" className="hover:text-purple-500 underline">Terms of Service</a>
           </div>
           <div className="mt-2 text-amber-500">
-            Part of the Letter Griddle Family 🥞
+            Part of the Breakfast Tarot Family 🥞
           </div>
         </div>
       </div>

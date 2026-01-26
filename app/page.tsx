@@ -1328,7 +1328,7 @@ Pull your daily card at breakfasttarot.com 🥞`}
             <a href="/terms" className="hover:text-amber-600 underline">Terms of Service</a>
           </div>
           <div className="mt-2 text-amber-500">
-            Part of the Letter Griddle Family 🥞
+            Part of the Breakfast Tarot Family 🥞
           </div>
         </div>
     </div>
