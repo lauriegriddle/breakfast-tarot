@@ -1165,7 +1165,7 @@ export default function BreakfastTarot() {
               onClick={() => setShowShareModal(true)}
               className="w-full bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-white py-3 rounded-full font-bold shadow-lg transition-all flex items-center justify-center gap-2"
             >
-              <span>📤</span> Share Today's Card
+              <span>🥞</span> Share Today's Card
             </button>
           </div>
         )}
