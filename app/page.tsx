@@ -1178,7 +1178,7 @@ export default function BreakfastTarot() {
             
         {/* Explore the Deck - Navigation Links */}
             <div className="bg-white/60 rounded-xl p-4 mb-6 border border-amber-200">
-              <h3 className="text-amber-800 font-bold text-center mb-3">📚 Explore the Griddle Deck</h3>
+              <h3 className="text-amber-800 font-bold text-center mb-3">Explore the Griddle Deck</h3>
               <div className="flex flex-col gap-2">
                 <a 
                   href="/major-arcana"
@@ -1267,10 +1267,7 @@ export default function BreakfastTarot() {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="text-center mt-6 text-xs text-amber-600">
-          © 2025 Breakfast Tarot. All rights reserved.
-        </div>
+      
       </div>
 
       {/* Share Modal */}
