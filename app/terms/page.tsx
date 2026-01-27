@@ -22,7 +22,7 @@ export default function Terms() {
           <section>
             <h2 className="text-xl font-bold text-amber-800 mb-3">What We Offer</h2>
             <p className="text-gray-700 leading-relaxed">
-              Breakfast Tarot is a free daily card pull experience using the Griddle Deck — 
+              Breakfast Tarot is a free daily card pull experience using the Breakfast Tarot Deck,  
               78 tarot cards reimagined for the breakfast table. It&apos;s meant for entertainment, 
               reflection, and a little morning magic.
             </p>
@@ -32,7 +32,7 @@ export default function Terms() {
             <h2 className="text-xl font-bold text-amber-800 mb-3">For Entertainment Purposes</h2>
             <p className="text-gray-700 leading-relaxed">
               The card readings and meanings provided are for entertainment and personal reflection only. 
-              They should not be taken as professional advice of any kind — financial, medical, legal, 
+              They should not be taken as professional advice of any kind:  financial, medical, legal, 
               or otherwise. Always consult qualified professionals for important life decisions.
             </p>
           </section>
@@ -49,7 +49,7 @@ export default function Terms() {
           <section>
             <h2 className="text-xl font-bold text-amber-800 mb-3">Our Content</h2>
             <p className="text-gray-700 leading-relaxed">
-              The Griddle Deck, card meanings, and all content on Breakfast Tarot are part of the 
+              The Breakfast Tarot Deck, card meanings, and all content on Breakfast Tarot are part of the 
               Letter Griddle family of games. All rights reserved. You may share your personal 
               results but may not reproduce the deck or content for commercial purposes.
             </p>
@@ -75,7 +75,7 @@ export default function Terms() {
 
           <section>
             <p className="text-gray-500 text-sm">
-              Last updated: January 25, 2026
+              Last updated: January 27, 2026
             </p>
           </section>
         </div>
