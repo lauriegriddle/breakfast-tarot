@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import PasswordGate from "./PasswordGate";
 
 export const metadata: Metadata = {
   title: "Breakfast Tarot",
@@ -34,7 +35,9 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-icon.png" />
       </head>
       <body className="antialiased">
-        {children}
+        <PasswordGate>
+          {children}
+        </PasswordGate>
       </body>
     </html>
   );
