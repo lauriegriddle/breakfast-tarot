@@ -157,7 +157,7 @@ const suits = {
       {
         number: 5,
         name: 'Five of Coffee',
-        emoji: '☕😢☕☕',
+        emoji: '☕☕😢☕☕☕',
         meaning: 'Don\'t mourn the spilled cups:  see what remains.',
         fullMeaning: 'Three cups spilled, but two still full. Grief, regret, focusing on loss. Yes, you lost something. But not everything. Turn around. There\'s still coffee in some of those cups.'
       },
