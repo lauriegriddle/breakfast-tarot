@@ -1288,7 +1288,7 @@ export default function CreativityCoachTarot() {
             <span>🎨</span>
           </div>
           <p className="text-amber-600 text-sm italic">
-            "This deck supports your creativity, not competes with it."
+            "This deck supports your creativity."
           </p>
           <p className="text-amber-500 text-xs">
             Part of the Breakfast Tarot Family 🥞
