@@ -1278,6 +1278,33 @@ export default function CreativityCoachTarot() {
           </div>
         )}
 
+        {/* Creativity Coach Collection */}
+        <div className="mt-8 text-center">
+          <div className="inline-block bg-white/40 backdrop-blur-sm rounded-2xl p-6 border border-purple-200/50 shadow-lg">
+            <div className="text-2xl mb-2">🔮✨🕯️</div>
+            <h3 className="text-lg font-bold bg-gradient-to-r from-purple-700 via-pink-600 to-amber-600 bg-clip-text text-transparent mb-2" style={{ fontFamily: 'Georgia, serif' }}>
+              More Creativity Coach
+            </h3>
+            <p className="text-sm text-purple-600 mb-4">
+              Continue your creative journey
+            </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a 
+                href="/oracle-creativity"
+                className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md"
+              >
+                🔮 Oracle (33)
+              </a>
+              <a 
+                href="/affirmations-creativity"
+                className="bg-gradient-to-r from-amber-500 via-orange-500 to-yellow-500 hover:from-amber-600 hover:via-orange-600 hover:to-yellow-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md"
+              >
+                🕯️ Affirmations (33)
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* Footer */}
         <div className="mt-12 text-center space-y-4">
           <div className="flex justify-center gap-2 text-xl">
@@ -1296,15 +1323,14 @@ export default function CreativityCoachTarot() {
           <div className="flex justify-center gap-4 text-sm">
             <a href="/" className="text-amber-700 hover:text-amber-900 underline">Daily Tarot</a>
             <span className="text-amber-400">•</span>
-            <a href="/oracle" className="text-amber-700 hover:text-amber-900 underline">Oracle</a>
+            <a href="/oracle" className="text-amber-700 hover:text-amber-900 underline">Breakfast Oracle</a>
             <span className="text-amber-400">•</span>
-            <a href="/affirmations" className="text-amber-700 hover:text-amber-900 underline">Affirmations</a>
+            <a href="/affirmations" className="text-amber-700 hover:text-amber-900 underline">Breakfast Affirmations</a>
           </div>
           <div className="text-xs text-gray-500 pt-2">
             © 2026 Breakfast Tarot. All rights reserved.
           </div>
         </div>
-
       </div>
     </div>
   );
