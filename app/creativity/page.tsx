@@ -788,12 +788,63 @@ export default function CreativityCoachTarot() {
     : creativityCoachDeck.filter(card => card.suit === browseSuit);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 via-amber-50 via-green-50 to-fuchsia-100 p-4 relative overflow-hidden">
-      {/* Magical shimmer overlay */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-white/40 via-transparent to-white/30 pointer-events-none"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-200/30 via-transparent to-transparent pointer-events-none"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-pink-200/30 via-transparent to-transparent pointer-events-none"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-100/20 via-transparent to-transparent pointer-events-none"></div>
+      <div className="min-h-screen bg-gradient-to-br from-violet-300 via-purple-200 via-fuchsia-200 via-pink-200 via-amber-200 to-yellow-200 p-4 relative overflow-hidden">
+      
+      {/* Deep ethereal base layers */}
+      <div className="absolute inset-0 bg-gradient-to-t from-purple-400/20 via-transparent to-pink-300/20 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-bl from-amber-300/30 via-fuchsia-300/10 to-violet-400/30 pointer-events-none"></div>
+      
+      {/* Shimmer overlays - intensified */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-white/50 via-transparent to-white/40 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-400/40 via-fuchsia-300/20 to-transparent pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-pink-400/40 via-rose-300/20 to-transparent pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-300/30 via-yellow-200/20 to-transparent pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-violet-400/30 via-transparent to-transparent pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-orange-300/25 via-transparent to-transparent pointer-events-none"></div>
+      
+      {/* Ethereal mist layers */}
+      <div className="absolute inset-0 bg-gradient-to-r from-white/30 via-transparent via-transparent to-white/30 pointer-events-none"></div>
+      <div className="absolute top-0 left-0 right-0 h-64 bg-gradient-to-b from-white/40 to-transparent pointer-events-none"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-white/30 to-transparent pointer-events-none"></div>
+      
+      {/* Large floating orbs */}
+      <div className="absolute -top-10 -left-10 w-64 h-64 bg-purple-400/40 rounded-full blur-3xl animate-pulse pointer-events-none"></div>
+      <div className="absolute top-20 right-0 w-72 h-72 bg-pink-400/35 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDelay: '1s' }}></div>
+      <div className="absolute bottom-20 -left-20 w-80 h-80 bg-amber-300/35 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDelay: '2s' }}></div>
+      <div className="absolute -bottom-10 right-10 w-56 h-56 bg-fuchsia-400/40 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDelay: '0.5s' }}></div>
+      <div className="absolute top-1/3 left-1/2 w-96 h-96 bg-yellow-300/25 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDelay: '1.5s' }}></div>
+      <div className="absolute top-1/2 -right-20 w-64 h-64 bg-violet-400/35 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDelay: '0.8s' }}></div>
+      <div className="absolute -top-20 left-1/3 w-72 h-72 bg-rose-300/30 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDelay: '2.5s' }}></div>
+      <div className="absolute bottom-1/3 left-10 w-48 h-48 bg-orange-300/30 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDelay: '1.2s' }}></div>
+      
+      {/* Crystal orbs */}
+      <div className="absolute top-[15%] left-[20%] w-24 h-24 bg-white/40 rounded-full blur-2xl animate-pulse pointer-events-none" style={{ animationDelay: '0.3s' }}></div>
+      <div className="absolute top-[45%] right-[25%] w-20 h-20 bg-white/35 rounded-full blur-2xl animate-pulse pointer-events-none" style={{ animationDelay: '1.7s' }}></div>
+      <div className="absolute bottom-[25%] left-[35%] w-28 h-28 bg-white/30 rounded-full blur-2xl animate-pulse pointer-events-none" style={{ animationDelay: '0.9s' }}></div>
+      
+      {/* Sparkles */}
+      <div className="absolute top-[8%] left-[12%] w-3 h-3 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '1.5s' }}></div>
+      <div className="absolute top-[20%] right-[18%] w-2 h-2 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2s', animationDelay: '0.3s' }}></div>
+      <div className="absolute top-[55%] left-[8%] w-2.5 h-2.5 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2.5s', animationDelay: '0.8s' }}></div>
+      <div className="absolute top-[35%] right-[12%] w-2 h-2 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '1.8s', animationDelay: '1.2s' }}></div>
+      <div className="absolute bottom-[35%] left-[22%] w-2 h-2 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2.2s', animationDelay: '0.5s' }}></div>
+      <div className="absolute bottom-[18%] right-[28%] w-3 h-3 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2s', animationDelay: '1s' }}></div>
+      <div className="absolute top-[12%] left-[45%] w-1.5 h-1.5 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '1.5s', animationDelay: '1.8s' }}></div>
+      <div className="absolute top-[65%] right-[38%] w-2 h-2 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2.5s', animationDelay: '0.2s' }}></div>
+      <div className="absolute bottom-[45%] left-[38%] w-2.5 h-2.5 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2s', animationDelay: '1.5s' }}></div>
+      <div className="absolute top-[3%] right-[8%] w-2 h-2 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '1.8s', animationDelay: '0.7s' }}></div>
+      <div className="absolute top-[75%] left-[5%] w-2 h-2 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2.2s', animationDelay: '1.3s' }}></div>
+      <div className="absolute bottom-[8%] left-[48%] w-1.5 h-1.5 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '1.5s', animationDelay: '2s' }}></div>
+      <div className="absolute top-[42%] left-[3%] w-3 h-3 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2s', animationDelay: '0.4s' }}></div>
+      <div className="absolute bottom-[60%] right-[5%] w-2 h-2 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '2.5s', animationDelay: '1.6s' }}></div>
+      <div className="absolute top-[88%] right-[15%] w-2.5 h-2.5 bg-white rounded-full animate-ping pointer-events-none" style={{ animationDuration: '1.8s', animationDelay: '0.9s' }}></div>
+      
+      {/* Rainbow prismatic flares */}
+      <div className="absolute top-[10%] right-[30%] w-1 h-8 bg-gradient-to-b from-violet-400/60 via-pink-400/60 to-transparent rotate-45 blur-sm animate-pulse pointer-events-none" style={{ animationDuration: '3s' }}></div>
+      <div className="absolute bottom-[20%] left-[15%] w-1 h-10 bg-gradient-to-b from-amber-400/60 via-orange-400/60 to-transparent -rotate-12 blur-sm animate-pulse pointer-events-none" style={{ animationDuration: '3.5s', animationDelay: '1s' }}></div>
+      <div className="absolute top-[50%] left-[8%] w-1 h-6 bg-gradient-to-b from-fuchsia-400/50 via-purple-400/50 to-transparent rotate-30 blur-sm animate-pulse pointer-events-none" style={{ animationDuration: '4s', animationDelay: '0.5s' }}></div>
+      <div className="absolute top-[30%] right-[5%] w-1 h-12 bg-gradient-to-b from-pink-400/50 via-rose-400/50 to-transparent -rotate-45 blur-sm animate-pulse pointer-events-none" style={{ animationDuration: '3s', animationDelay: '1.5s' }}></div>
+      <div className="absolute bottom-[40%] right-[20%] w-1 h-8 bg-gradient-to-b from-yellow-400/50 via-amber-400/50 to-transparent rotate-12 blur-sm animate-pulse pointer-events-none" style={{ animationDuration: '3.5s', animationDelay: '2s' }}></div>
       
       <div className="max-w-2xl mx-auto relative z-10">
 
