@@ -1318,6 +1318,41 @@ Pull your daily card at breakfasttarot.com 🥞`}
           </div>
         </div>
       )}
+      {/* Creativity Coach Collection */}
+      <div className="mt-8 text-center">
+        <div className="inline-block bg-gradient-to-r from-purple-100 via-pink-100 to-amber-100 rounded-2xl p-6 border border-purple-200 shadow-lg">
+          <div className="text-2xl mb-2">🎨✨🔮</div>
+          <h3 className="text-lg font-bold bg-gradient-to-r from-purple-700 via-pink-600 to-amber-600 bg-clip-text text-transparent mb-2" style={{ fontFamily: 'Georgia, serif' }}>
+            Creativity Coach Collection
+          </h3>
+          <p className="text-sm text-purple-600 mb-4">
+            Mystical guidance for the creative soul
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <a 
+              href="/creativity"
+              className="bg-gradient-to-r from-purple-500 via-pink-500 to-amber-500 hover:from-purple-600 hover:via-pink-600 hover:to-amber-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md"
+            >
+              🎨 Tarot (78)
+            </a>
+            <a 
+              href="/oracle-creativity"
+              className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md"
+            >
+              🔮 Oracle (33)
+            </a>
+            <a 
+              href="/affirmations-creativity"
+              className="bg-gradient-to-r from-amber-500 via-orange-500 to-yellow-500 hover:from-amber-600 hover:via-orange-600 hover:to-yellow-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md"
+            >
+              🕯️ Affirmations (33)
+            </a>
+          </div>
+          <p className="text-xs text-purple-400 mt-3 italic">
+            144 cards of creative wisdom
+          </p>
+        </div>
+      </div>
       {/* Footer */}
         <div className="text-center py-6 text-xs text-amber-700 mt-8">
           <div>
