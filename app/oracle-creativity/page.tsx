@@ -537,15 +537,7 @@ export default function CreativityCoachOracle() {
               </div>
             </div>
 
-            {/* Navigation */}
-            <div className="text-center pt-4">
-              <a 
-                href="/creativity"
-                className="inline-block bg-gradient-to-r from-purple-500 via-pink-500 to-amber-500 hover:from-purple-600 hover:via-pink-600 hover:to-amber-600 text-white px-6 py-3 rounded-full font-semibold transition-all text-sm shadow-lg"
-              >
-                🎨 Creativity Coach Tarot
-              </a>
-            </div>
+        
           </div>
         )}
 
@@ -823,6 +815,33 @@ export default function CreativityCoachOracle() {
           </div>
         )}
 
+        {/* More Creativity Coach */}
+        <div className="mt-8 text-center">
+          <div className="inline-block bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-purple-400/30 shadow-lg">
+            <div className="text-2xl mb-2">🎨✨🕯️</div>
+            <h3 className="text-lg font-bold bg-gradient-to-r from-cyan-300 via-purple-300 to-amber-300 bg-clip-text text-transparent mb-2" style={{ fontFamily: 'Georgia, serif' }}>
+              More Creativity Coach
+            </h3>
+            <p className="text-sm text-purple-300 mb-4">
+              Continue your creative journey
+            </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a 
+                href="/creativity"
+                className="bg-gradient-to-r from-purple-500 via-pink-500 to-amber-500 hover:from-purple-600 hover:via-pink-600 hover:to-amber-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md"
+              >
+                🎨 Tarot (78)
+              </a>
+              <a 
+                href="/affirmations-creativity"
+                className="bg-gradient-to-r from-amber-500 via-orange-500 to-yellow-500 hover:from-amber-600 hover:via-orange-600 hover:to-yellow-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md"
+              >
+                🕯️ Affirmations (33)
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* Footer */}
         <div className="mt-12 text-center space-y-4">
           <div className="flex justify-center gap-2 text-xl">
@@ -841,15 +860,14 @@ export default function CreativityCoachOracle() {
           <div className="flex justify-center gap-4 text-sm">
             <a href="/creativity" className="text-purple-300 hover:text-white underline">Tarot</a>
             <span className="text-purple-500">•</span>
-            <a href="/" className="text-purple-300 hover:text-white underline">Breakfast Tarot</a>
+            <a href="/affirmations-creativity" className="text-purple-300 hover:text-white underline">Affirmations</a>
             <span className="text-purple-500">•</span>
-            <a href="/affirmations" className="text-purple-300 hover:text-white underline">Affirmations</a>
+            <a href="/" className="text-purple-300 hover:text-white underline">Breakfast Tarot</a>
           </div>
           <div className="text-xs text-purple-500 pt-2">
             © 2026 Creativity Coach. All rights reserved.
           </div>
         </div>
-
       </div>
     </div>
   );
