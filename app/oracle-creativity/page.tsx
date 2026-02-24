@@ -53,7 +53,7 @@ const oracleCards = [
     id: 6,
     name: "The Galaxy",
     category: "cosmic",
-    emoji: "🌀",
+    emoji: "💜",
     essence: "You contain multitudes",
     message: "A single galaxy contains hundreds of billions of stars, countless planets, mysteries beyond measure. And YOU contain a galaxy. Your creative capacity is not limited to one style, one medium, one idea. You are vast. You hold contradictions, contain multitudes, spiral with possibilities. Stop trying to be one thing. You are a galaxy. Create like one.",
     question: "What unexplored region of your creative galaxy is calling you?"
