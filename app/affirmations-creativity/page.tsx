@@ -952,7 +952,7 @@ export default function CreativityCoachAffirmations() {
             <span>🔥</span>
           </div>
           <p className="text-amber-300/70 text-sm italic" style={{ fontFamily: 'Georgia, serif' }}>
-            "We are creative wisdom itself."
+            "You are the magic you seek."
           </p>
           <p className="text-amber-400/50 text-xs">
             Part of the Creativity Coach Collection 🎨
