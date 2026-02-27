@@ -1353,6 +1353,27 @@ Pull your daily card at breakfasttarot.com 🥞`}
           </p>
         </div>
       </div>
+      {/* The Cozy Mystic */}
+      <div className="mt-6 text-center">
+        <div className="inline-block bg-gradient-to-r from-slate-900 via-indigo-900 to-slate-900 rounded-2xl p-6 border border-amber-400/30 shadow-lg shadow-purple-500/20">
+          <div className="text-2xl mb-2">🌙✨🕯️</div>
+          <h3 className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-200 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
+            The Cozy Mystic
+          </h3>
+          <p className="text-sm text-indigo-300 mb-4">
+            For everyday wonder
+          </p>
+          <a 
+            href="/cozy"
+            className="inline-block bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 hover:from-indigo-800 hover:via-purple-700 hover:to-indigo-800 text-amber-200 px-6 py-3 rounded-full font-semibold transition-all shadow-md shadow-purple-500/30 border border-amber-400/40"
+          >
+            🌙 Enter
+          </a>
+          <p className="text-xs text-indigo-400 mt-3 italic">
+            33 cards 
+          </p>
+        </div>
+      </div>
       {/* Footer */}
         <div className="text-center py-6 text-xs text-amber-700 mt-8">
           <div>
