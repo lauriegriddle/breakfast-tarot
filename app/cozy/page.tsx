@@ -762,7 +762,11 @@ export default function CozyMysticDeck() {
               <h2 className="text-xl font-bold text-amber-200 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
                 📖 The Cozy Collection
               </h2>
-              <p className="text-indigo-300 text-sm">33 cards of gentle wisdom</p>
+              <div className="inline-block bg-gradient-to-r from-indigo-900/50 via-purple-800/50 to-indigo-900/50 rounded-full px-5 py-1.5 border border-amber-400/30 shadow-md shadow-purple-500/20">
+              <p className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-200 text-sm">
+                ✨ 33 cards of gentle wisdom ✨
+              </p>
+            </div>
             </div>
 
             {/* Category Tabs */}
@@ -773,7 +777,7 @@ export default function CozyMysticDeck() {
                   onClick={() => setBrowseCategory(cat)}
                   className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${
                     browseCategory === cat
-                      ? 'bg-amber-500 text-slate-900'
+                      ? 'bg-gradient-to-r from-indigo-700 via-purple-600 to-indigo-700 text-amber-200 shadow-lg shadow-purple-500/30 border border-amber-400/40'
                       : 'bg-slate-800/50 text-indigo-200 hover:bg-slate-700/50 border border-indigo-500/20'
                   }`}
                 >
@@ -827,7 +831,7 @@ export default function CozyMysticDeck() {
             <div className="text-center">
               <button
                 onClick={goHome}
-                className="bg-slate-700 hover:bg-slate-600 text-white px-6 py-3 rounded-full font-semibold transition-all"
+                className="bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 hover:from-indigo-800 hover:via-purple-700 hover:to-indigo-800 text-amber-200 px-6 py-3 rounded-full font-semibold transition-all shadow-lg shadow-purple-500/30 border border-amber-400/40"
               >
                 🌙 Back to Home
               </button>
