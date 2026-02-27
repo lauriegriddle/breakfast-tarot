@@ -1015,6 +1015,31 @@ export default function BreakfastTarot() {
   // ==========================================
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 p-4 relative overflow-hidden">
+      {/* Collection Navigation */}
+      <div className="sticky top-0 z-50 bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 border-b border-amber-200 shadow-sm">
+        <div className="max-w-2xl mx-auto px-4 py-3">
+          <div className="flex flex-wrap justify-center gap-2">
+            <a 
+              href="#breakfast"
+              className="bg-gradient-to-r from-amber-500 via-orange-500 to-yellow-500 hover:from-amber-600 hover:via-orange-600 hover:to-yellow-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md border border-amber-400/30"
+            >
+              🥞 Breakfast Collection
+            </a>
+            <a 
+              href="/creativity"
+              className="bg-gradient-to-r from-purple-500 via-pink-500 to-amber-500 hover:from-purple-600 hover:via-pink-600 hover:to-amber-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md border border-purple-400/30"
+            >
+              🎨 Creativity Coach
+            </a>
+            <a 
+              href="/cozy"
+              className="bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 hover:from-indigo-800 hover:via-purple-700 hover:to-indigo-800 text-amber-200 px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md border border-amber-400/40"
+            >
+              🌙 The Cozy Mystic
+            </a>
+          </div>
+        </div>
+      </div>
       {/* Background decorations */}
       <div className="fixed top-4 left-4 text-4xl opacity-20">☕</div>
       <div className="fixed top-4 right-4 text-4xl opacity-20">🥞</div>
@@ -1370,7 +1395,7 @@ Pull your daily card at breakfasttarot.com 🥞`}
             🌙 Enter
           </a>
           <p className="text-xs text-indigo-400 mt-3 italic">
-            33 cards 
+            33 cards
           </p>
         </div>
       </div>
