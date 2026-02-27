@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 // ============================================
 // THE COZY MYSTIC DECK - 33 CARDS
-// Gentle Messages & Magical Prompts for Everyday Wonder
+// Cozy Messages & Magical Prompts for Everyday Wonder
 // ============================================
 
 const cozyMysticDeck = [
@@ -547,7 +547,7 @@ export default function CozyMysticDeck() {
               </h1>
               <div className="inline-block bg-gradient-to-r from-indigo-900/50 via-purple-800/50 to-indigo-900/50 rounded-full px-6 py-2 border border-amber-400/30 shadow-lg shadow-purple-500/20">
               <p className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-200 text-sm italic">
-                ✨ Gentle Messages & Magical Prompts for Everyday Wonder ✨
+                ✨ Cozy Messages & Magical Prompts for Everyday Wonder ✨
               </p>
             </div>
               <div className="flex justify-center gap-2 mt-4 text-lg">
@@ -566,7 +566,7 @@ export default function CozyMysticDeck() {
                 className="w-full max-w-xs mx-auto block bg-gradient-to-r from-indigo-600 via-purple-500 to-fuchsia-600 hover:from-indigo-500 hover:via-purple-400 hover:to-fuchsia-500 text-white px-8 py-4 rounded-2xl font-semibold transition-all shadow-lg shadow-fuchsia-500/40 border-2 border-amber-300/50 ring-2 ring-amber-400/30 ring-offset-2 ring-offset-slate-900"
               >
                 <span className="text-xl mr-2">✨</span>
-                Receive a Gentle Message
+                Receive a Cozy Message
               </button>
               
               <button
@@ -574,7 +574,7 @@ export default function CozyMysticDeck() {
                 className="w-full max-w-xs mx-auto block bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 hover:from-indigo-800 hover:via-purple-700 hover:to-indigo-800 text-amber-200 px-8 py-4 rounded-2xl font-semibold transition-all shadow-lg shadow-purple-500/30 border-2 border-amber-400/40"
               >
                 <span className="text-xl mr-2">🌙</span>
-                Three Card Comfort
+                Three Cards of Cozy Comfort
                 <span className="block text-xs text-slate-300 mt-1">Past Comfort • Present Warmth • Future Wonder</span>
               </button>
               
@@ -591,7 +591,7 @@ export default function CozyMysticDeck() {
             <div className="bg-gradient-to-br from-indigo-900/50 via-purple-900/40 to-slate-900/50 backdrop-blur-sm rounded-2xl p-6 border border-amber-400/30 max-w-md mx-auto shadow-lg shadow-purple-500/20">
               <div className="text-2xl mb-3">🕯️</div>
               <p className="text-amber-100 text-sm italic leading-relaxed">
-                "Some days you need wisdom. Other days you need a cup of tea, a soft blanket, and permission to just be."
+                "Some days you need wisdom. Other days you need a cup of tea, a soft blanket, and to just be cozy."
               </p>
               <div className="flex justify-center gap-2 mt-4 text-sm">
                 <span>☕</span>
@@ -610,9 +610,13 @@ export default function CozyMysticDeck() {
           <div className="py-8">
             <div className="text-center mb-6">
               <h2 className="text-xl font-bold text-amber-200 mb-1" style={{ fontFamily: 'Georgia, serif' }}>
-                ✨ Your Gentle Message ✨
+                ✨ Your Cozy Message ✨
               </h2>
-              <p className="text-indigo-300 text-sm">Breathe. Receive. Let it land.</p>
+              <div className="inline-block bg-gradient-to-r from-indigo-900/50 via-purple-800/50 to-indigo-900/50 rounded-full px-5 py-1.5 border border-amber-400/30 shadow-md shadow-purple-500/20">
+              <p className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-200 text-sm">
+                ✨ Receive cozy inspiration. ✨
+              </p>
+            </div>
             </div>
 
             <div className="flex justify-center mb-6">
@@ -682,9 +686,13 @@ export default function CozyMysticDeck() {
           <div className="py-6">
             <div className="text-center mb-6">
               <h2 className="text-xl font-bold text-amber-200 mb-1" style={{ fontFamily: 'Georgia, serif' }}>
-                🌙 Three Card Comfort 🌙
+                🌙 Three Cozy Cards 🌙
               </h2>
-              <p className="text-indigo-300 text-sm">Past Comfort • Present Warmth • Future Wonder</p>
+              <div className="inline-block bg-gradient-to-r from-indigo-900/50 via-purple-800/50 to-indigo-900/50 rounded-full px-5 py-1.5 border border-amber-400/30 shadow-md shadow-purple-500/20">
+              <p className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-200 text-sm">
+                ✨ Past Comfort • Present Warmth • Future Wonder ✨
+              </p>
+            </div>
             </div>
 
             {!isRevealed ? (
@@ -848,9 +856,11 @@ export default function CozyMysticDeck() {
             <span>🌿</span>
             <span>🧶</span>
           </div>
-          <p className="text-indigo-300 text-sm italic">
-            "Wrap yourself in wonder."
-          </p>
+          <div className="inline-block bg-gradient-to-r from-indigo-900/50 via-purple-800/50 to-indigo-900/50 rounded-full px-5 py-1.5 border border-amber-400/30 shadow-md shadow-purple-500/20">
+              <p className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-200 text-sm italic">
+                ✨ "Wrap yourself in wonder." ✨
+              </p>
+            </div>
           <p className="text-indigo-400 text-xs">
             Part of the Breakfast Tarot Family 🥞
           </p>
