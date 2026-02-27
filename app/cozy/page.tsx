@@ -480,11 +480,6 @@ export default function CozyMysticDeck() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-purple-900/30 via-transparent to-transparent pointer-events-none"></div>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-blue-900/20 via-transparent to-transparent pointer-events-none"></div>
       
-      {/* Crescent moon */}
-      <div className="absolute top-8 right-12 w-16 h-16 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-full shadow-[0_0_40px_rgba(253,224,71,0.4)]"></div>
-        <div className="absolute -right-2 -top-1 w-14 h-14 bg-slate-950 rounded-full"></div>
-      </div>
       
       {/* Large glowing orbs */}
       <div className="absolute top-1/4 left-10 w-48 h-48 bg-purple-500/10 rounded-full blur-3xl animate-pulse pointer-events-none"></div>
