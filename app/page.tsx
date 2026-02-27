@@ -790,11 +790,17 @@ export default function BreakfastTarot() {
     unlockedAchievements: []
   });
 
-  // Get today's card (same for everyone each day)
+  // Get today's card (randomized but same for everyone each day)
   const getTodaysCard = () => {
     const today = new Date();
     const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24));
-    const cardIndex = dayOfYear % griddleDeck.length;
+    const year = today.getFullYear();
+    
+    // Create a pseudo-random index using day and year as seed
+    const seed = (dayOfYear * 13 + year * 7) * 31;
+    const scrambled = Math.abs(Math.sin(seed) * 10000);
+    const cardIndex = Math.floor(scrambled) % griddleDeck.length;
+    
     return griddleDeck[cardIndex];
   };
 
