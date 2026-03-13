@@ -1043,6 +1043,12 @@ export default function BreakfastTarot() {
             >
               🌙 The Cozy Mystic
             </a>
+            <a 
+              href="/glow"
+              className="bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 hover:from-amber-500 hover:via-orange-400 hover:to-amber-500 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-md shadow-orange-400/30 border border-amber-400/50"
+            >
+              ✨ GLOW
+            </a>
           </div>
         </div>
       </div>
@@ -1405,6 +1411,32 @@ Pull your daily card at breakfasttarot.com 🥞`}
           </p>
         </div>
       </div>
+      
+      {/* GLOW: High Frequency Message Cards */}
+        <div className="mt-6 text-center">
+          <div className="inline-block bg-gradient-to-r from-amber-950 via-orange-900 to-amber-950 rounded-2xl p-6 border border-amber-400/40 shadow-lg shadow-amber-500/30">
+            <div className="text-2xl mb-2">✨🔥✨</div>
+            <h3 className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-200 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
+              GLOW
+            </h3>
+            <p className="text-sm text-amber-300 mb-1">
+              High Frequency Message Cards
+            </p>
+            <p className="text-xs text-amber-400/80 mb-4 italic">
+              Experience the high frequency of small actions
+            </p>
+            <a 
+              href="/glow"
+              className="inline-block bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 hover:from-amber-500 hover:via-orange-400 hover:to-amber-500 text-white px-6 py-3 rounded-full font-semibold transition-all shadow-md shadow-orange-500/40 border border-amber-400/50"
+            >
+              ✨ Ignite Your Glow
+            </a>
+            <p className="text-xs text-amber-400 mt-3 italic">
+              76 cards of grounded action
+            </p>
+          </div>
+        </div>
+      
       {/* Footer */}
         <div className="text-center py-6 text-xs text-amber-700 mt-8">
           <div>
