@@ -1221,10 +1221,10 @@ export default function CreativityCoachTarot() {
                 'text-pink-600'
               }`}>
                 {browseSuit === 'major' && 'The soul\'s creative journey from innocent yes to integrated wholeness'}
-                {browseSuit === 'slumber' && 'Rest, reflection, restoration — the body and spirit'}
-                {browseSuit === 'play' && 'Action, creativity, experimentation — the hands and will'}
-                {browseSuit === 'joy' && 'Mindset, presence, positivity — the mind and thoughts'}
-                {browseSuit === 'loveliness' && 'Beauty, appreciation, gratitude — the heart and emotions'}
+                {browseSuit === 'slumber' && 'Rest, reflection, restoration guide the body and spirit'}
+                {browseSuit === 'play' && 'Action, creativity, experimentation access the hands and will'}
+                {browseSuit === 'joy' && 'Mindset, presence, positivity tap into the mind and thoughts'}
+                {browseSuit === 'loveliness' && 'Beauty, appreciation, gratitude touch the heart and emotions'}
               </p>
             </div>
 
